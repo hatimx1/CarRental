@@ -1,0 +1,71 @@
+body {
+    background-color: #212529;
+    margin-top: 60px;
+    position: relative;
+}
+/* hero section */
+
+.hero-sec {
+    background-image: url('./assets/heroimg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 50vh;
+    position: relative;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* how it works */
+
+.small-num {
+    font-weight: bold;
+    color: #00b0ff;
+}
+
+.row--cont {
+    padding: 0 25px;
+}
+
+.card--cont {
+    position: relative;
+    z-index: 10;
+}
+
+.card--body {
+    /* box-shadow: 5px 5px 15px 5px rgba(255, 255, 255, 0.51); */
+    box-shadow: 5px 15px 30px 0 rgba(255, 255, 255, 0.3);
+    height: 100%;
+}
+.card--num {
+    font-size: 120px;
+    font-weight: bold;
+    position: absolute;
+    color: #00b0ff;
+    top: -20px;
+    left: -37px;
+    z-index: -1;
+}
+
+/* cars section */
+
+.card--grid {
+    background-color: #12171c;
+    color: #fff;
+    box-shadow: 5px 15px 30px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.car--prix {
+    color: #00b0ff;
+    font-weight: bold;
+}
